@@ -4,6 +4,10 @@ services:
   installer:
     image: nicholaswilde/haste:latest
     container_name: haste
+    environment:
+      - TZ=America/Los_Angeles
+      - PUID=1000
+      - PGID=1000
     ports:
       - 7777:7777
     restart: unless-stopped

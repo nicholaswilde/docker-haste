@@ -4,10 +4,11 @@ extends: default
 ignore: |
   **/.github/workflows/**
   **/stale.yml
+  **/labels.yml
 
 rules:
   line-length:
-    max: 120
+    max: 140
     level: warning
   truthy:
     allowed-values: ['true', 'false', 'yes', 'no']
