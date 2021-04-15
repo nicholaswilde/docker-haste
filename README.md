@@ -1,4 +1,5 @@
 # Docker Haste
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 [![Docker Image Version (latest by date)](https://img.shields.io/docker/v/nicholaswilde/haste)](https://hub.docker.com/r/nicholaswilde/haste)
 [![Docker Pulls](https://img.shields.io/docker/pulls/nicholaswilde/haste)](https://hub.docker.com/r/nicholaswilde/haste)
 [![GitHub](https://img.shields.io/github/license/nicholaswilde/docker-haste)](./LICENSE)
@@ -6,7 +7,9 @@
 [![lint](https://github.com/nicholaswilde/docker-haste/workflows/lint/badge.svg?branch=main)](https://github.com/nicholaswilde/docker-haste/actions?query=workflow%3Alint)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
 
-A multi-architecture docker image for [Haste](https://github.com/zneix/haste-server) pastebin.
+⛔️ DEPRECATED A multi-architecture docker image for [Haste](https://github.com/zneix/haste-server) pastebin.
+
+This image has been depcrecated. Please use the [k8s@home version](https://github.com/orgs/k8s-at-home/packages/container/package/haste) instead.
 
 ## Requirements
 - [buildx](https://docs.docker.com/engine/reference/commandline/buildx/)
